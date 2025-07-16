@@ -3,93 +3,59 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #fafafa;
   color: #333;
-}
-
-/* ZONA IZQUIERDA */
-.left-zone {
-  width: 30%;
-  float: left;
-  background-color: #f8bbd0;
   padding: 40px;
-  box-sizing: border-box;
-  text-align: center;
 }
 
-.logo {
-  width: 160px;
-  margin-bottom: 30px;
+h1 {
+  font-size: 2.8rem;
+  color: #d81b60;
+  margin-bottom: 20px;
 }
 
-.grupal {
-  width: 100%;
-  max-width: 240px;
-  border-radius: 12px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+h2 {
+  margin-top: 40px;
+  color: #ad1457;
 }
 
-/* ZONA DERECHA */
-.right-zone {
-  width: 70%;
-  float: left;
-  padding: 40px;
-  box-sizing: border-box;
-  background-color: #fff;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 24px;
+h3 {
+  margin-top: 30px;
+  color: #c2185b;
 }
 
-/* COLUMNAS VISUALES */
-.column {
-  position: relative;
-  width: 200px;
-  height: 280px;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: transform 0.2s;
+p, li {
+  line-height: 1.6;
+  font-size: 1.05rem;
 }
 
-.column:hover {
-  transform: scale(1.05);
+ul {
+  padding-left: 20px;
 }
 
-.column img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.box-japan {
+  background-color: #fce4ec;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
-.overlay-text {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.6);
+.box-trad {
+  background-color: #fff8e1;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.volver-btn {
+  margin-top: 40px;
+  padding: 12px 30px;
+  background-color: #d81b60;
   color: white;
-  text-align: center;
-  padding: 12px 0;
-  font-size: 1.1rem;
-  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
 }
 
-/* BORDES POR PERSONAJE */
-.ichika  { border: 3px solid #fce68f; }
-.nino    { border: 3px solid #f48fb1; }
-.miku    { border: 3px solid #90caf9; }
-.yotsuba { border: 3px solid #a5d6a7; }
-.itsuki  { border: 3px solid #ef9a9a; }
-.general { border: 3px solid #ce93d8; }
-
-/* RESPONSIVO */
-@media screen and (max-width: 768px) {
-  .left-zone, .right-zone {
-    width: 100%;
-    float: none;
-  }
-  .column {
-    width: 45%;
-    height: 240px;
-  }
+.volver-btn:hover {
+  background-color: #ad1457;
 }
